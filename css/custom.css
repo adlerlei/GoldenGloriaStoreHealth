@@ -1,0 +1,327 @@
+#hrTop[style]{
+    top:0px !important;
+	margin-bottom: -30px !important;
+}
+
+.button.button-light {
+    background-color: #F6F8F9;
+    color: #000;
+    text-shadow: none!important;
+}
+/* slider設定 --------- */
+/* 左右兩邊箭頭位置（右邊箭頭）*/
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 5%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+/* 左右兩邊箭頭位置（左邊箭頭） */
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 5%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+/* slider文字位置設定 */
+.carousel-caption {
+    position: absolute;
+    right: 80%;
+    bottom: 20px;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 8px 22px;
+    font-size: 0.875rem;
+    line-height: 24px;
+    background-color: #1ABC9C;
+    color: #FFF;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+}
+/*第二欄css設定////////////////////////////*/
+/* 第二欄與第一欄上下間距 */
+.content-wrap{
+	position: relative;
+    padding: 40px 0;
+    overflow: hidden;
+}
+/* 圖片翻轉後呈現顏色 */
+.bg-danger-1 {
+    background-color: #dddddd !important;
+	/* background-color: #d62828 !important; */
+}
+.bg-danger-2 {
+	background-color: #DFDDC3 !important;
+	/* background-color: #d62828 !important; */
+}
+.bg-danger-3{
+	background-color: #BDCEC3 !important;
+	/* background-color: #d62828 !important; */
+}
+/* 圖片上icon大小設定 */
+.iconSize{
+	margin-bottom:10px;
+    margin-top: 40px;
+	width: 150px;
+	height: auto;
+}
+/*半透明遮罩*/
+.flip-card-front::after,
+.flip-card-back::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	content: "";
+	display: block;
+	opacity: 0.3;
+	background-color: #000;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 6px;
+}
+
+#page-title {
+    position: relative;
+    /* padding: 10rem 0; */
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+.formTitleColor{
+	color: #ce0f0f;
+}
+.formlabelColor{
+
+	color: #c1c1c1;
+}
+label{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 10px;
+}
+.alert-primary {
+    color: #ffffff;
+    background-color: #cce5ff;
+}
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.alert-primary hr {
+    border-top-color: #f6f6f6;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+    margin: 0 0 -10px 0;
+}
+.section {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.mt-5, .my-5 {
+    margin-top: 0rem !important;
+}
+.skills {
+    /* margin: 0; */
+    list-style: none;
+    padding-top: 25px;
+    background-color: #ffffff;
+}
+.gutter-50 > .col, .gutter-50 > [class*="col-"] {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+.gutter-50 {
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: -5px;
+    margin-top: 20px;
+}
+.hrFontColor{
+    color: #cccccc;
+}
+.sliderStyle{
+    margin-top: -102px;
+    height: auto;
+}
+
+/* navbar下拉選單背景色及上邊條顏色 */
+/* .dark .primary-menu:not(.not-dark) .sub-menu-container,
+.dark .primary-menu:not(.not-dark) .mega-menu-content {
+	background-color: #262626;
+	border-color: rgba(255,255,255,0.05);
+	border-top-color: #8785C1;
+} */
+
+/* navbar連結下拉後選單背景色及上邊條顏色 */
+/* .sub-menu-container,
+.mega-menu-content {
+	position: absolute;
+	visibility: hidden;
+	width: 220px;
+	background-color: #262626;
+	box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
+	border: 1px solid #EEE;
+	border-top: 2px solid #8785C1;
+	z-index: 399;
+	top: 100%;
+	left: 0;
+	padding: 0;
+} */
+
+/* navbar連結下拉後滑鼠移過文字顏色 */
+/* .menu-item:hover > .menu-link,
+.menu-item.current > .menu-link {
+	color: #8785C1;
+} */
+
+/* navbar連結下拉後滑鼠移過文字顏色及連結背景顏色 */
+/* .sub-menu-container .menu-item:hover > .menu-link {
+	background-color: #222222;
+	padding-left: 18px;
+	color: #C1C1C1;
+} */
+
+/* navbar原始連結滑鼠移入文字顏色 */
+/* .dark .menu-item:hover > .menu-link,
+.dark .menu-item.current > .menu-link {
+	color: #EBEBEB;
+} */
+
+/* navbar主選單連結下拉連結文字顏色 */
+/* .dark .primary-menu:not(.not-dark) .sub-menu-container .menu-item:hover > .menu-link {
+	background-color: rgba(0,0,0,0.1);
+	color: #EBEBEB;
+} */
+
+/* .sub-menu-container .menu-item > .menu-link {
+	position: relative;
+	padding: 11px 5px;
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: #EBEBEB;
+	letter-spacing: 0;
+	font-family: 'Lato', sans-serif;
+} */
+
+/* a {
+	text-decoration: none !important;
+	color: #222222;
+} */
+
+.resultSlider{
+    width: 50%;
+    margin-top: -18px;
+}
+.resultSliderFont{
+    color: #ffffff;
+}
+.resultSliderHr{
+    border:0;
+    background-color:#f2f2f2;
+    height:1px;
+}
+
+.sticky-progressbar{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    bottom: auto;
+    right: 0px;
+    z-index: 9;
+}
+
+.bg-overlay-content {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -999;
+    padding: 20px;
+}
+
+.error {
+    color: red
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+    opacity: 1 !important;
+}
+
+.BlockAnimationFontSize{
+    font-size: 20px;
+}
+.salonFontSize{
+    font-size:13px;
+}
+
+/* actionBarColor */
+.button.button-dark {
+	background-color: #8785C0;
+}
+.button.button-dark:hover { background-color: #8B8B8B; }
+.button.button-rounded {
+    border-radius: 3px;
+    height: 100px;
+}
+.button.button-large {
+    padding: 8px 26px;
+    font-size: 1rem;
+    line-height: 500%;
+}
